@@ -1,0 +1,23 @@
+{
+  "name": "mean-starter-pack",
+  "version": "1.0.0",
+  "description": "A base starter pack with only the essentials to get up and running with a MEAN application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmpace/MEAN-Starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmpace/MEAN-Starter/issues"
+  },
+  "homepage": "https://github.com/tmpace/MEAN-Starter#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
