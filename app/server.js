@@ -5,6 +5,10 @@ var express = require('express');
 var app = express();
 var port = process.env.PORT || 1337;
 
+// Connect to DB
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/starter'); // Replace 'starter' with your DB name
+
 // Middleware
 app.use(express.static(__dirname + '/../public'));
 
