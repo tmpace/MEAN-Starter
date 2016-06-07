@@ -1,0 +1,17 @@
+{
+  "name": "mean-starter-pack",
+  "description": "A base starter pack with only the essentials to get up and running with a MEAN application.",
+  "main": "index.js",
+  "authors": [
+    "Trevor Pace <tmpace11@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tmpace/MEAN-Starter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
