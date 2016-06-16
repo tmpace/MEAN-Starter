@@ -5,14 +5,22 @@
   </head>
   <body ng-app="app">
     <h1>Welcome to the MEAN Starter Pack</h1>
+    <div ui-view></div>
 
     <!-- Angular Libraries -->
     <script src="assets/libs/angular/angular.min.js"></script>
+    <script src="assets/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
     
     <!-- Bootstrap app -->
     <script src="app/app.module.js"></script>
+    <script src="app/config.route.js"></script>
 
     <!-- Core module -->
     <script src="app/components/core/core.module.js"></script>
+
+    <!-- Dashboard -->
+    <script src="app/components/dashboard/dashboard.module.js"></script>
+    <script src="app/components/dashboard/dashboard.js"></script>
+    <script src="app/components/dashboard/config.route.js"></script>
   </body>
 </html>
