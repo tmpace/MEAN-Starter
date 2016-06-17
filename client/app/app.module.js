@@ -3,6 +3,9 @@
 
   angular.module('app', [
     /* Shared modules */
-    'app.core'
+    'app.core',
+
+    /* Features */
+    'app.dashboard'
   ]);
 })()
